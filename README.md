@@ -26,9 +26,9 @@ sudo make install
 ```
 
 #### 安装YouCompleteMe
+YouCompleteMe安装后需要编译
 ```bash
 cd ~/.vim/bundle/YouCompleteMe
 ./install.py --gocode-completer #安装go自动补全
 #./install.py --all #安装全部语言自动补全
 ``` 
-inux
