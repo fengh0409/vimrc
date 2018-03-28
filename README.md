@@ -33,3 +33,8 @@ cd ~/.vim/bundle/YouCompleteMe
 ./install.py --gocode-completer #安装go自动补全
 #./install.py --all #安装全部语言自动补全
 ``` 
+
+#### vim-go
+打开vim执行 `:GoInstallBinaries`。
+
+其中，在安装`golang.org/x/tools/...`这种包文件时会由于网络原因无法安装，这时可以访问其镜像地址[https://github.com/golang/tools](https://github.com/golang/tools)，将源码clone下来后mv 到`golang.org/x/tools/`目录下，然后去编译相应的源码包，如`go install golang.org/x/tools/cmd/goimports`
