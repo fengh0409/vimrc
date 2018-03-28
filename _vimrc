@@ -98,5 +98,8 @@ nnoremap <C-k> <C-w><C-]><C-w>T
 
 let g:phpcomplete_min_num_of_chars_for_namespace_completion = 3
 
+" vim-go 保存时自动执行goimports
+let g:go_fmt_command = "goimports"  
+
 nmap <F4> :Tab /=<CR>
 
